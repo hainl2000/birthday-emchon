@@ -4,8 +4,8 @@ const giftbox = document.getElementById('merrywrap');
 const canvasC = document.getElementById('c');
 
 const config = {
-  birthdate: 'Jan 29, 2020',
-  name: 'Darlene'
+  birthdate: 'Nov 20, 2022',
+  name: 'AAAAA'
 };
 
 function hideEverything() {
@@ -481,6 +481,8 @@ x = setInterval(function() {
       if (step === 4) {
         return;
       }
+      var audio = document.getElementById("song");
+      audio.play();
       setTimeout(openBox, stepMinutes[step - 1]);
       step++;
       //   setTimeout(anim, 1900);
@@ -499,3 +501,8 @@ x = setInterval(function() {
   //     console.log("happy birthday");
   // }
 }, second);
+function play() {
+}
+
+
+

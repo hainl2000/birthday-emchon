@@ -1,0 +1,23 @@
+{
+  "name": "birthday-counter",
+  "version": "1.0.0",
+  "description": "A really simple and elegant looking birthday counter",
+  "main": ".prettierrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pavanjadhaw/birthday-counter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pavanjadhaw/birthday-counter/issues"
+  },
+  "homepage": "https://github.com/pavanjadhaw/birthday-counter#readme",
+  "devDependencies": {
+    "git-scripts": "^0.6.4",
+    "surge": "^0.23.1"
+  }
+}
